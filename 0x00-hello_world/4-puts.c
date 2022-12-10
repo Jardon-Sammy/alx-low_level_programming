@@ -2,10 +2,10 @@
 
 
 /**
-* main - print  "Programming is like building a multilingual 
-* puzzle, followed by a newline."
-* Return 0.
-*/
+ * main - print  "Programming is like building a multilingual 
+ * puzzle, followed by a newline."
+ * Return: Alawys 0.
+ */
 
 
 int main(void)
