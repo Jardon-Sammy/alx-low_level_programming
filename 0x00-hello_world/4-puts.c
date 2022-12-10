@@ -2,9 +2,9 @@
 
 
 /**
-* main - Entry point
-* 
-* Return: Always 0 (Success)
+* main - print  "Programming is like building a multilingual 
+* puzzle, followed by a newline."
+* Return 0.
 */
 
 
