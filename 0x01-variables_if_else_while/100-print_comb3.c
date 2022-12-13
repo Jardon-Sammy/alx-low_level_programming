@@ -7,20 +7,21 @@
  */
 int main(void)
 {
-	int n, m;
+	int ones = '0';
+	int tens = '0';
 
-	for (n = 48; n < 58; n++)
+	for (tens = '0'; tens <= '9'; tens++)/* prints tens digit*/
 	{
-		for (m = 49; m <= 57; m++)
+		for (ones = '0'; ones <= '9'; ones++)/* prints ones digit*/
 		{
-			if (m > n)
+			if (!((ones == tens) || (tens > ones)))/*eliminates repitition*/
 			{
-				putchar(n);
-				putchar(m);
-				if (n != 56 || m != 57)
+				putchar(tens);
+				putchar(ones);
+				if (!(ones == '9' && tens == '8'))/*addes commma and space*/
 				{
 					putchar(',');
-					putchar(',');
+					putchar(' ');
 				}
 			}
 		}
