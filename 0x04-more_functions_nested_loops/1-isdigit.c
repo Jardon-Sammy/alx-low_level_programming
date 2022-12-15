@@ -1,11 +1,14 @@
 #include "main.h"
+
 /**
- * mul - function that multiples two intergers
- * @a: firts input
- * @b: second input
- * Return: multiplication result
+ * _isdigit -  a function that checks for a digit 0-9
+ * @c: input
+ * Return: 1 if c is a digit, 0 otherwise
  */
-int mul(int a, int b)
+int _isdigit(int c)
 {
-return (a * b);
+	if ((c >= 48) && (c <= 57))
+		return (1);
+	else
+		return (0);
 }
