@@ -2,12 +2,10 @@
 
 /**
  * _isdigit - checks for characters that are digits
- * @c: character 
+ * @c: input 
  *
- * Return: 0 or 1
+ * Return: 1 if c is a digit, 0 otherwise
  */
-
-
 int _isdigit(int c)
 {
 	if (c >= '0' && c <= '9')
