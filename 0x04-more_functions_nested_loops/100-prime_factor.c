@@ -5,7 +5,7 @@
  *
  * Return: Always
  */
-int main (void)
+int main(void)
 {
 	long prime = 612852475143, div;
 	while (div < (prime / 2))
@@ -15,5 +15,12 @@ int main (void)
 			prime /= 2;
 			continue
 		}
-		for (div = 3; div < (prime / 2); div += 3)
-		
+		for (div = 3; div < (prime / 2); div += 2)
+		{
+			if ((prime % div) == 0)
+				prime /= div;
+		}
+	}
+	printf("%1d\n", prime);
+	return (0);
+}
