@@ -1,7 +1,6 @@
 /*
  * File: 101-quote.c
- * Auth: Jardon
- * /
+ */
 
 #include <unistd.h>
 
